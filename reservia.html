@@ -11,6 +11,8 @@
     </head>
 
     <body>
+       <div id="tout">
+
         <header class=entete> 
             <p>
                 <img src=file:///Users/sarah/Desktop/RESERVIA/Reservia.svg alt="reservia" />
@@ -19,8 +21,10 @@
             
        
             
-            <ul class= "navbar-nav list-inline >
-                 <li class= "nav-item active>
+            <ul class= "navbar-nav" list-inline >
+
+                 <li class= "nav-item" active>
+                    
                     <a class="nav-link" href="#hebergements">Hebergements 
                     </a>
                    
@@ -47,14 +51,16 @@
     <br>En plein centre ville ou en pleine nature
    
    <!--barre de recherche-->
-   Marseille, France 
-   <!--barre de filtre-->
+   <form method=""post" action="php">
+    <p> <label for="recherche"> Rechercher </label>: <input type="text" name="rechercher" id="rechercher" autofocus="Marseille, France"> </input> </p>
+ 
+  <p> <!--barre de filtre-->
    Filtres 
    Économique 
    Familial 
    Romantique 
    Animaux autorisés
-
+</p>
     </section>
 <span>
     <!--icone info-->
@@ -64,12 +70,6 @@
          
     </p>
        <div class="container">
-        <div class="row">
-            <div class="col-8"> 
-                <div class="col-4"> 
-            </div>
-        </div>
-    </div>
 </div>
 </section>
 
@@ -136,29 +136,34 @@
         </p>
 </aside>
 </section>
+      
+
        <section>
         <p>
             <h2 id="activités"> Activités à Marseille </h2>
                 
-                <figure class=vieuport>
-                    
-                    <img src=""alt=vieuport>
+            
+            <figure class=vieuxport>
+            
+                    <img src="file:///Users/sarah/Desktop/RESERVIA/vieuportsmall.jpg" height="387px" width="301px" alt=vieuxport/>
+                   
                     <figcaption>Vieux Port
                     
                     </figcaption>
-                </figure>
+
+                    <figure class=fortdepomegues>
             
-            <figure class=fortdepomegues>
-            
-                    <img src=""alt=fortdepomegues>
+                    <img src="file:///Users/sarah/Desktop/RESERVIA/fortdepommeguesmall.jpg" height="190px" width="309px" alt=fortdepomegues/>
+                   
                     <figcaption>Fort de Pomègues
                     
                     </figcaption>
+                
                 </figure>
                
                 <figure class=ilesdufrioul>
                     
-                    <img src=""alt=ilesdufrioul>
+                    <img src="file:///Users/sarah/Desktop/RESERVIA/ilesdufrioulsmall.jpg" height="114px" width="309px" alt=ilesdufrioul>
                     <figcaption>Iles du Frioul
                     
                     </figcaption>
@@ -166,7 +171,7 @@
                
                 <figure class=parcnationaldescalanques>
                     
-                    <img src=""alt=parcnationaldescalanques>
+                    <img src="file:///Users/sarah/Desktop/RESERVIA/calanquesmall.jpg" height="387px" width="301px" alt=parcnationaldescalanques>
                     <figcaption>Parc national des Calanques
                     
                     </figcaption>
@@ -174,7 +179,8 @@
                
                 <figure class=notredamedelagarde>
                     
-                    <img src=""alt=notredamedelagarde>
+                    <img src="file:///Users/sarah/Desktop/RESERVIA/notredamesmall.jpg" height="140px" width="309px" alt=notredamedelagarde>
+                    
                     <figcaption>Notre-Dame-de-la-Garde
                     
                     </figcaption>
@@ -182,45 +188,47 @@
                 
                 <figure class=parclongchamp>
                    
-                    <img src=""alt=parclongchamp>
+                    <img src="file:///Users/sarah/Desktop/RESERVIA/parclongchampsmall.jpg" height="150px" width="309px" alt=parclongchamp>
                     <figcaption>Parc Longchamp
                     
                     </figcaption>
                 </figure>
         </p>
 </section>
+
         <footer> 
-            <div class="container">
-                <div class="row">
-                    <div class="col-3">
-                    
-                    </div>
-                </div>
-            </div>
 
             <div class=container4> <!--A propos-->
-                <h4> A propos
-                </h4>
-                <br> Fonctionnement du site
-                <br> Conditions générales de vente
-                <br> Données et confidentialité
+                <h4> A propos</h4>
+               
+                <ul>
+                    
+                <li>
+                 <br> <a href="#"> Fonctionnement du site </a>
+                 <br> <a href="#"> Conditions générales de vente </a>
+                 <br> <a href="#"> Données et confidentialité </a>
+                 </li>
             </p>
 
             <p> <!--Nos herbergements-->
                 <h4> Nos hebergements
                 </h4>
-                <br> Charte qualité
-                <br>Soumettre votre hotel
+                <br> <a href="#"> Charte qualité </a>
+                <br> <a href="#"> Soumettre votre hotel </a>
             </p>
 
             <p> <!--Assistance-->
                 <h4> Assistance
                 </h4>
-                <br> Centre d'aide
-                <br>Nous contacter
+                <br> <a href="#"> Centre d'aide </a>
+                <br> <a href="#"> Nous contacter </a>
+            </p>
+        </ul>
             </div>
 
         </footer>
+</div>
+
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     
