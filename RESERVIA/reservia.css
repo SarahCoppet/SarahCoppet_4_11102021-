@@ -1,0 +1,201 @@
+@font-face
+{
+	font-family: Raleway;
+	src: url(Raleway.eot) format("eot");
+	src: url(Raleway.woff) format("woff");
+	src: url(Raleway.otf) format("otf");
+	src: url(Raleway.ttf) format("ttf");
+	src: url(Raleway.svg) format("svg");
+}
+
+
+p 
+{
+	
+	font-size: small;
+}
+
+#tout
+
+ {
+ 	font-family: raleway, serif, sans-serif;
+ 	display
+}
+
+header
+ {
+ 	margin: 50px;
+ 	display: flex;
+ 	align-items: space-between;
+ 	text-align
+ 	background-color: #f2f2f2;
+}
+ 
+ ul 
+ {
+ 	float: right;
+ 	display: inline-flex;
+ }
+
+ form 
+ {
+ 	display: flex;
+ 	border: solid;
+ 	border-color: #f2f2f2;
+ 	height: 51px;
+ 	width: 424px;
+ 	border-radius: 15px;
+
+ }
+ i 
+ {
+ 	background-color: #f2f2f2;
+ 	float: ;
+ }
+ label
+ {
+ 	background-color:  #0065FC;
+ 	color: white;
+ 	text-align: justify;
+ 	font-size: larger;
+
+ }
+
+
+
+
+h2 h3 h4 h5
+{
+	font-weight: bold;
+}
+
+ 
+ div .filtres
+ {
+ 	display: inline-flex;
+ 	
+
+ }
+
+
+ body
+ {
+ 	background-image: url(Resevia.svg);
+ 	background-attachment: scroll;
+ 	background-repeat: no-repeat;
+ 	background-position: top left;
+ }
+ 
+ 
+
+ 
+/*barre de navigation */
+
+
+
+
+section
+{
+	border: 1px solid blue;
+}
+
+
+
+
+
+
+.container1 /*hebergement, disposition*/
+{
+	background-color: #f2f2f2;
+	float: left;
+	border-radius: 15px;
+	padding: 30px;
+	display: flex;
+	flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+p .hebergement1
+{
+	border: 1px solid black;
+
+}
+
+p .hebergement2
+{
+	border: white;
+}
+p .hebergement3
+{
+
+}
+p .hebergement4
+{ 
+ }
+p .hebergement5
+{
+
+}
+p .hebergement6
+{
+
+}
+
+
+
+
+.container2 /*les plus populaires*/
+
+{
+	background-color: #f2f2f2;
+	float: right;
+	border-radius: 15px;
+	padding: 30px;
+	order: 2;
+}
+
+p .populaire1
+{
+	background-color: white;
+	border: solid;
+    border-radius: 20px;
+
+}
+/*activite*/
+
+.container3
+
+{
+	background-color: white;
+		border-radius: 15px;
+		order: 3;
+}
+
+/*footer*/
+.container4
+{ 
+	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+figure
+
+{
+	background-color: white;
+	border: none;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+
+
+}
+
+span 
+{
+	
+}
+
+
