@@ -1,11 +1,12 @@
 @font-face
 {
-	font-family: Raleway;
-	src: url(Raleway.eot) format("eot");
-	src: url(Raleway.woff) format("woff");
-	src: url(Raleway.otf) format("otf");
-	src: url(Raleway.ttf) format("ttf");
-	src: url(Raleway.svg) format("svg");
+	font-family: "Raleway"; 
+	src: url("Raleway.ttf");
+	src: url("Raleway.ttf") format("ttf")
+	url("Raleway.eot") format("eot"),
+	url("Raleway.woff") format("woff"),
+	url("Raleway.otf") format("otf"),
+	url("Raleway.svg") format("svg");
 }
 
 
@@ -13,21 +14,25 @@ p
 {
 	
 	font-size: small;
+
+
 }
+
 
 #tout
 
  {
- 	font-family: raleway, serif, sans-serif;
+ 	font-family: "Raleway", serif, sans-serif;
  	display
 }
 
-header
+header 
  {
  	margin: 50px;
  	display: flex;
  	align-items: space-between;
- 	text-align
+ 	justify-content: flex-start;
+ 	flex-direction: row;
  	background-color: #f2f2f2;
 }
  
@@ -47,11 +52,7 @@ header
  	border-radius: 15px;
 
  }
- i 
- {
- 	background-color: #f2f2f2;
- 	float: ;
- }
+ 
  label
  {
  	background-color:  #0065FC;
@@ -69,13 +70,10 @@ h2 h3 h4 h5
 	font-weight: bold;
 }
 
- 
- div .filtres
- {
- 	display: inline-flex;
- 	
 
- }
+
+ 
+
 
 
  body
@@ -91,54 +89,115 @@ h2 h3 h4 h5
  
 /*barre de navigation */
 
+.filtres
+{
+	margin: 40px;
+	display: inline-flex;
 
+}
+
+div .filtre1
+{
+	border: 1.5px solid #f2f2f2;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 7px;
+}
+div .filtre2
+{
+	border: 1.5px solid #f2f2f2;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 7px;
+
+}
+div .filtre3
+{
+	border: 1.5px solid #f2f2f2;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 7px;
+
+}
+div .filtre4
+{
+	border: 1.5px solid #f2f2f2;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 7px;
+
+
+}
 
 
 section
 {
-	border: 1px solid blue;
+}
+
+
+.info
+{
+	margin: 40px;
 }
 
 
 
-
-
-
-.container1 /*hebergement, disposition*/
+.container1 /*hebergement*/
 {
 	background-color: #f2f2f2;
-	float: left;
 	border-radius: 15px;
 	padding: 30px;
+	margin: 50px;
 	display: flex;
 	flex-wrap: wrap;
     align-items: flex-start;
     align-content: space-around;
 }
 
-p .hebergement1
+
+.hebergement1
 {
-	border: 1px solid black;
+	border: 1px solid white;
+	padding: 10px;
+	margin: 10px;
 
 }
 
-p .hebergement2
+.hebergement2
 {
-	border: white;
+	border: 1px solid white;
+	padding: 10px;
+	margin: 10px;
 }
-p .hebergement3
+
+.hebergement3
 {
+	border: 1px solid white;
+	padding: 10px;
+	margin: 10px;
 
 }
-p .hebergement4
+
+.hebergement4
 { 
+	border: 1px solid white;
+	padding: 10px;
+	margin: 10px;
  }
-p .hebergement5
+
+.hebergement5
 {
+	border: 1px solid white;
+	padding: 10px;
+	margin: 10px;
 
 }
-p .hebergement6
+
+.hebergement6
 {
+	border: 1px solid white;
+	padding: 10px;
+	margin: 10px;
 
 }
 
@@ -151,26 +210,71 @@ p .hebergement6
 	background-color: #f2f2f2;
 	float: right;
 	border-radius: 15px;
+	margin: 15px;
 	padding: 30px;
+	padding-bottom: 20px;
 	order: 2;
 }
 
-p .populaire1
+.populaire1
 {
-	background-color: white;
-	border: solid;
+	border: 1px solid white;
+	padding: 7px;
+	margin: 10px;
     border-radius: 20px;
 
 }
+.pop1
+{
+	float: right;
+}
+
+
+.populaire2
+{
+	border: 1px solid white;
+	padding: 7px;
+	margin: 10px;
+    border-radius: 20px;
+
+}
+.pop2 
+{
+	float: right;
+}
+
+
+.populaire3
+{
+	border: 1px solid white;
+	padding: 7px;
+	margin: 10px;
+    border-radius: 20px;
+
+}
+.pop3
+{
+	float: right;
+}
+
+
 /*activite*/
 
 .container3
 
 {
+	font-weight: bold;
 	background-color: white;
 		border-radius: 15px;
 		order: 3;
 }
+
+.vieuxport
+{
+	box-shadow: ;
+}
+
+
 
 /*footer*/
 .container4
@@ -178,6 +282,8 @@ p .populaire1
 	background-color: #f2f2f2;
 	display: flex;
 	flex-direction: row;
+	margin-top: 50px;
+	padding: 50px;
 	
 }
 
@@ -193,9 +299,5 @@ figure
 
 }
 
-span 
-{
-	
-}
 
 

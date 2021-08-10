@@ -1,4 +1,4 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html><html lang="fr">
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="reservia.css" type="text/css">
@@ -49,22 +49,44 @@
    
    <!--barre de recherche-->
    <form method="" post="" action="php">
-     <i class="fas fa-map-marker-alt"></i> <input type="search" name="rechercher" id="rechercher" placeholder="Marseille, France">:<label for="recherche"> Rechercher </label> 
+
+     <i class="fas fa-map-marker-alt" style=" font-size: 22px;"></i> 
+
+     <input type="search" name="rechercher" id="rechercher" placeholder="Marseille, France">:<label for="recherche"> Rechercher </label> 
  </form>
  
+  
   <span class=filtres> <!--barre de filtre-->
    Filtres 
 
-   <i class="fas fa-money-bill-wave" style="color:#0065FC; background-color: #DEEBFF; font-size: 20px;border-radius: 100px"></i> Économique 
-   <i class="fas fa-child" style="color:#0065FC; background-color: #DEEBFF; font-size: 20px; border-radius: 100px"> </i> Familial 
-   <i class="fab fa-gratipay" style="color:#DEEBFF; background-color: #0065FC; font-size: 20px;border-radius: 100px"> </i> Romantique 
-  <i class="fas fa-dog" style="color:#0065FC; background-color: #DEEBFF; font-size: 20px;border-radius: 100px"> </i> Animaux autorisés 
+  <div class=filtre1> 
+    <i class="fas fa-money-bill-wave" style="color:#0065FC; background-color: #DEEBFF;
+   ; font-size: 20px;border-radius: 100px;">
+   </i> 
+Économique 
+</div>
+   
+   <div class=filtre2> <i class="fas fa-child" style="color:#0065FC; background-color: #DEEBFF; font-size: 20px; border-radius: 100px;"> 
+   </i> 
+Familial 
+</div>
+   
+   <div class=filtre3> <i class="fab fa-gratipay" style="color:#DEEBFF; background-color: #0065FC; font-size: 20px;border-radius: 100px;"> 
+   </i> 
+Romantique 
+</div>
+  
+  <div class=filtre4> <i class="fas fa-dog" style="color:#0065FC; background-color: #DEEBFF; font-size: 20px;border-radius: 100px;"> 
+  </i> 
+Animaux autorisés 
+</div>
 </span>
+
     </section>
 
     <!--icone info-->
     
-    <p> 
+    <p class="info"> 
         <i class="fas fa-info-circle" style="color:white; background-color: #0065FC; font-size: 20px; border-radius: 100px; border-color: #f2f2f2;">
             
         </i> Plus de 500 logements sont disponible dans cette ville 
@@ -78,60 +100,64 @@
 
         <div class=container1> <!--AJOUTER LES PHOTOS ET ETOILES-->
             
-            <h2 id="hebergement"> Hebergements à Marseille 
+           <p> <h2 id="hebergement"> Hebergements à Marseille 
                 
-            </h2> 
+            </h2> </p>
         
         
-        <p class=hebergement1> 
-            <br>
-            <figure> 
-                <img src="file:///Users/sarah/Desktop/RESERVIA/aubergedelacannebieresmall.jpg" height="123" width="245" alt="AubergeLaCannebiere">
+        
+            
+            <figure class="hebergement1"> 
+                <img src="file:///Users/sarah/Desktop/RESERVIA/aubergedelacannebieresmall.jpg" height="123" width="245" alt="AubergeLaCannebiere" >
             <figcaption> 
                 <h5> Auberge La Cannebière </h5>
             Nuit à partir de 25€
-            <!--etoile utilise css--><br> <i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i>
+            <!--etoile utilise css-->
+            <br><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i>
         </figcaption> </figure>
         
         
         
-        <p class=hebergemnt2>
+        
             
-            <figure> 
+            <figure class="hebergement2"> 
                 <img src="file:///Users/sarah/Desktop/RESERVIA/hotelduportsmall.jpg" height="123" width="245" alt="HotelduPort">
             <figcaption> 
                 <h5> Hotel du port</h5>
             Nuit à partir de 52€
-            <!--etoile utilise css--> <br><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i>
+            <!--etoile utilise css--> 
+            <br><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i>
         </figcaption> </figure>
         
         
 
-         <p class=hebergemnt3>
+         
             
-            <figure> 
+            <figure class="hebergement3"> 
                 <img src="file:///Users/sarah/Desktop/RESERVIA/hotellesmouettessmall.jpg" height="123" width="245" alt="HotelLesMouettes">
             <figcaption>
             <h5> Hotel Les mouettes</h5>
             Nuit à partir de 76€
-            <!--etoile utlise css--> <br><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i>
+            <!--etoile utlise css--> 
+            <br><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i>
         </figcaption> </figure>
         
         
 
-         <p class=hebergemnt4>
-            <figure> 
+         
+            <figure class="hebergement4"> 
                 <img src="file:///Users/sarah/Desktop/RESERVIA/hoteldelamersmall.jpg" height="123" width="245" alt="HoteldelaMer">
             <figcaption>
                 <h5> Hotel de la mer</h5>
             Nuit à partir de 46€
-            <!--etoile utlise css--><br> <i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i> <i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i><i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i>
+            <!--etoile utlise css-->
+            <br> <i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i> <i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i><i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i>
         </figcaption> </figure>
         
         
 
-         <p class=hebergemnt5>
-            <figure>
+         
+            <figure class="hebergement5">
                 <img src="file:///Users/sarah/Desktop/RESERVIA/aubergelepaniersmall.jpg" height="123" width="245" alt="AubergeLePanier">
             <figcaption>
             <h5> Auberge le panier</h5>
@@ -141,8 +167,8 @@
         
         
 
-         <p class=hebergemnt6>
-            <figure>
+         
+            <figure class="hebergement6">
                 <img src="file:///Users/sarah/Desktop/RESERVIA/hotelchezaminasmall.jpg" height="123" width="245" alt="HotelChezAmina">
             <figcaption>
                 <h5> Hotel chez Amina</h5>
@@ -154,35 +180,35 @@
         <a href="#"> Afficher plus </a>
     </div> </section>
        
-       <aside class=container2> <!--AJOUTER LES PHOTOS ET ETOILES-->
+       <aside class="container2"> <!--AJOUTER LES PHOTOS ET ETOILES-->
         <p>
             <h2> Les plus populaires <i class="fas fa-chart-line"></i>
         </h2> 
     
-     <p class=poupulaire1>
-        <figure>
+     
+        <figure class="populaire1">
             <img src="file:///Users/sarah/Desktop/RESERVIA/hotellesoleildumatinsmall.jpg" height="145" width="135" alt="HotelLeSoleilDuMatin">
-            <figcaption>
+            <figcaption class="pop1">
                 <h5> Hotel Le soleil du matin</h5>
             Nuit à partir de 128€
             <!--etoile utilise css--> <br><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i> 
         </figcaption> </figure>
  
          
-         <p class=populaire2>
-            <figure>
+         
+            <figure class="populaire2">
                 <img src="file:///Users/sarah/Desktop/RESERVIA/aucoeurdeleausmall.jpg" height="145" width="135" alt="AuCoeurDeLeau">
-            <figcaption>
-                <h5> Au coeur de l'eau Chambres d'hotes</h5>
+            <figcaption class="pop2">
+                <h5> Au coeur de l'eau <br>Chambres d'hotes</h5>
             Nuit à partir de 71€
             <!--etoile utilise css--><br> <i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i>
         </figcaption> </figure>
         
          
-         <p class=populaire3>
-           <figure>
+         
+           <figure class="populaire3">
             <img src="file:///Users/sarah/Desktop/RESERVIA/hoteltoutbleuetblancsmall.jpg" height="145" width="135" alt="HotelToutBleuetBlanc">
-           <figcaption>
+           <figcaption class="pop3">
             <h5> Hotel Tout bleu et Blanc</h5>
             Nuit à partir de 68€
             <!--etoile utlise css--><br> <i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i>
@@ -254,35 +280,35 @@
 
 </section>
 
+       
+
         <footer> 
 
             <div class=container4> <!--A propos-->
-                <h4> A propos</h4>
-               
-                <ul>
-                    
+                <h4> A propos 
+                </h4>
                 
-                 <li> Fonctionnement du site </li>
-                 <li> Conditions générales de vente </li>
-                 <li> Données et confidentialité </li>
+                 <br> Fonctionnement du site 
+                 <br> Conditions générales de vente 
+                 <br> Données et confidentialité 
                  
-            </ul>
+            
 
             <!--Nos herbergements-->
                 <h4> Nos hebergements
                 </h4>
-               <ul> 
-                <li>Charte qualité </li>
-                <li>Soumettre votre hotel</li> 
-            </ul>
+               
+               <br> Charte qualité 
+                <br> Soumettre votre hotel
+            
 
              <!--Assistance-->
                 <h4> Assistance
                 </h4>
-               <ul>
-                <li> Centre d'aide </li>
-                <li> Nous contacter </li>
-            </ul>
+               
+                <br> Centre d'aide 
+                <br> Nous contacter 
+            
         
             </div>
 
