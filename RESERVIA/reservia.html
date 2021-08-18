@@ -2,7 +2,10 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="reservia.css" type="text/css">
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/f19e5873eb.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width">
 
         
         <title>RESERVIA</title>
@@ -11,14 +14,11 @@
     <body>
        <div id="tout">
 
-        <header class=entete> 
-            <nav>
-                <img src=file:///Users/sarah/Desktop/RESERVIA/Reservia.svg alt="reservia" />
-            
-    
-            
-       
-            
+        <header class="entete"> 
+            <div class="reservia">  
+                <img src=file:///Users/sarah/Desktop/RESERVIA/Reservia@3x.png alt="reservia" />
+            </div>
+         <nav>
             <ul class= "navbar-nav">
 
                  <li class= "nav1">
@@ -45,24 +45,24 @@
         </header>
 
    <section> 
-    <h3 class=trouver> Trouvez votre hébergement pour des vacances de reve </h3>
-    <p>En plein centre ville ou en pleine nature
+    <h3 class="trouver"> Trouvez votre hébergement pour des vacances de reve </h3>
+    <p class="epc">En plein centre ville ou en pleine nature </p>
    
    <!--barre de recherche-->
    <form method="" post="" action="php">
 
-     <i class="fas fa-map-marker-alt" style=" font-size: 22px;"></i> 
+     <i class="fas fa-map-marker-alt" style=" font-size: 22px; border-radius: 15px 0px 0px 15px;background-color: #F2F2F2;"></i> 
 
      <input type="search" name="rechercher" id="rechercher" placeholder="Marseille, France">:<label for="recherche"> Rechercher </label> 
  </form>
  
   
-  <span class=filtres> <!--barre de filtre-->
-   Filtres 
+  <div class="filtres"> <!--barre de filtre-->
+   <span class="filtremot"> Filtres </span> 
 
   <div class=filtre1> 
     <i class="fas fa-money-bill-wave" style="color:#0065FC; background-color: #DEEBFF;
-   ; font-size: 20px;border-radius: 100px;">
+   ; font-size: 20px; border-radius: 100px;">
    </i> 
 Économique 
 </div>
@@ -81,28 +81,29 @@ Romantique
   </i> 
 Animaux autorisés 
 </div>
-</span>
+</div>
 
     </section>
 
     <!--icone info-->
     
-    <p class="info"> 
-        <i class="fas fa-info-circle" style="color:white; background-color: #0065FC; font-size: 20px; border-radius: 100px; border-color: #f2f2f2;">
-            
-        </i> Plus de 500 logements sont disponible dans cette ville 
-         
-    </p>
+    <div class="info"> 
+        <i class="fas fa-info-circle" style="color:white; background-color: #0065FC; font-size: 20px; border-radius: 100px; border-color: #f2f2f2;">  
+        </i> 
+        <span class="infotxt">
+        Plus de 500 logements sont disponibles dans cette ville 
+        </span>        
+    </div>
        
        
 
 
 <section class="hebetpop">
 
-        <div class=container> <!--AJOUTER LES PHOTOS ET ETOILES-->
+        <div class="container"> 
             
            <p> 
-            <h2 id="hebergement"> Hebergements à Marseille 
+            <h2 id="hebergements"> Hébergements à Marseille 
                 
             </h2> 
         </p>
@@ -111,7 +112,7 @@ Animaux autorisés
         
             
             <figure class="hebergement1"> 
-                <img src="file:///Users/sarah/Desktop/RESERVIA/aubergedelacannebieresmall.jpg" height="123" width="200" alt="AubergeLaCannebiere" >
+                <img class="abgdelacanne" src="file:///Users/sarah/Desktop/RESERVIA/aubergedelacannebieresmall.jpg" height="123" width="206" alt="AubergeLaCannebiere" >
             <figcaption class="heb1"> 
                 <h5> Auberge La Cannebière </h5>
             Nuit à partir de 25€
@@ -119,12 +120,8 @@ Animaux autorisés
             <br><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i>
         </figcaption> </figure>
         
-        
-        
-        
-            
             <figure class="hebergement2"> 
-                <img src="file:///Users/sarah/Desktop/RESERVIA/hotelduportsmall.jpg" height="123" width="200" alt="HotelduPort">
+                <img src="file:///Users/sarah/Desktop/RESERVIA/hotelduportsmall.jpg" height="123" width="206" alt="HotelduPort">
             <figcaption class="heb2"> 
                 <h5> Hotel du port</h5>
             Nuit à partir de 52€
@@ -132,12 +129,8 @@ Animaux autorisés
             <br><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i>
         </figcaption> </figure>
         
-        
-
-         
-            
             <figure class="hebergement3"> 
-                <img src="file:///Users/sarah/Desktop/RESERVIA/hotellesmouettessmall.jpg" height="123" width="200" alt="HotelLesMouettes">
+                <img src="file:///Users/sarah/Desktop/RESERVIA/hotellesmouettessmall.jpg" height="123" width="206" alt="HotelLesMouettes">
             <figcaption class="heb3">
             <h5> Hotel Les mouettes</h5>
             Nuit à partir de 76€
@@ -145,11 +138,8 @@ Animaux autorisés
             <br><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i>
         </figcaption> </figure>
         
-        
-
-         
             <figure class="hebergement4"> 
-                <img src="file:///Users/sarah/Desktop/RESERVIA/hoteldelamersmall.jpg" height="123" width="200" alt="HoteldelaMer">
+                <img src="file:///Users/sarah/Desktop/RESERVIA/hoteldelamersmall.jpg" height="123" width="206" alt="HoteldelaMer">
             <figcaption class="heb4">
                 <h5> Hotel de la mer</h5>
             Nuit à partir de 46€
@@ -157,22 +147,16 @@ Animaux autorisés
             <br> <i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i> <i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i><i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i>
         </figcaption> </figure>
         
-        
-
-         
             <figure class="hebergement5">
-                <img src="file:///Users/sarah/Desktop/RESERVIA/aubergelepaniersmall.jpg" height="123" width="200" alt="AubergeLePanier">
+                <img src="file:///Users/sarah/Desktop/RESERVIA/aubergelepaniersmall.jpg" height="123" width="206" alt="AubergeLePanier">
             <figcaption class="heb5">
             <h5> Auberge le panier</h5>
             Nuit à partir de 23€
             <!--etoile utilise css--><br> <i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i> <i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i>
         </figcaption> </figure>
         
-        
-
-         
             <figure class="hebergement6">
-                <img src="file:///Users/sarah/Desktop/RESERVIA/hotelchezaminasmall.jpg" height="123" width="200" alt="HotelChezAmina">
+                <img src="file:///Users/sarah/Desktop/RESERVIA/hotelchezaminasmall.jpg" height="123" width="206" alt="HotelChezAmina">
             <figcaption class= heb6>
                 <h5> Hotel chez Amina</h5>
             Nuit à partir de 96€
@@ -185,8 +169,9 @@ Animaux autorisés
 
        
        <aside class="container2"> <!--AJOUTER LES PHOTOS ET ETOILES-->
-    <p>
-            <h2> Les plus populaires <i class="fas fa-chart-line"></i>
+    <p class="AZERT">
+            <h2 class="popp"> Les plus populaires 
+           <span class="trend"> <i class="fas fa-chart-line"></i></span>
         </h2> 
     </p>
     
@@ -195,8 +180,8 @@ Animaux autorisés
             <img src="file:///Users/sarah/Desktop/RESERVIA/hotellesoleildumatinsmall.jpg" height="145" width="135" alt="HotelLeSoleilDuMatin">
             <figcaption class="pop1">
                 <h5> Hotel Le soleil du matin</h5>
-            Nuit à partir de 128€
-            <!--etoile utilise css--> <br><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i> 
+            Nuit à partir de 128€ <br> <br>
+            <!--etoile utilise css--> <br><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color:white;"></i><i class="fas fa-star" style="color:#0065FC; background-color:white;"></i><i class="fas fa-star" style="color:#0065FC; background-color:white;"></i> 
         </figcaption> </figure>
  
          
@@ -205,7 +190,7 @@ Animaux autorisés
                 <img src="file:///Users/sarah/Desktop/RESERVIA/aucoeurdeleausmall.jpg" height="145" width="135" alt="AuCoeurDeLeau">
             <figcaption class="pop2">
                 <h5> Au coeur de l'eau <br>Chambres d'hotes</h5>
-            Nuit à partir de 71€
+            Nuit à partir de 71€ <br> 
             <!--etoile utilise css--><br> <i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i>
         </figcaption> </figure>
         
@@ -215,7 +200,7 @@ Animaux autorisés
             <img src="file:///Users/sarah/Desktop/RESERVIA/hoteltoutbleuetblancsmall.jpg" height="145" width="135" alt="HotelToutBleuetBlanc">
            <figcaption class="pop3">
             <h5> Hotel Tout bleu et Blanc</h5>
-            Nuit à partir de 68€
+            Nuit à partir de 68€ <br><br>
             <!--etoile utlise css--><br> <i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#0065FC; background-color: white;"></i><i class="fas fa-star" style="color:#f2f2f2; background-color: white;"></i>
         </figcaption> </figure>
         </aside>
@@ -231,15 +216,16 @@ Animaux autorisés
         </p>
                 
             
-            <figure class=vieuxport>
+           <div> <figure class=vieuxport>
             <img src="file:///Users/sarah/Desktop/RESERVIA/vieuportsmall.jpg" height="387" width="301" alt=vieuxport/>
                    
                     <figcaption>Vieux Port
                     </figcaption>
                 </figure>
+            </div>
 
-                    <figure class=fortdepomegues>
-                    <img src="file:///Users/sarah/Desktop/RESERVIA/fortdepommeguesmall.jpg" height="190" width="309" alt=fortdepomegues/>
+                   <div class="act1"> <figure class=fortdepomegues>
+                    <img src="file:///Users/sarah/Desktop/RESERVIA/fortdepommeguesmall.jpg" height="190" width="300" alt=fortdepomegues/>
                    
                     <figcaption>Fort de Pomègues
                     </figcaption>
@@ -247,22 +233,24 @@ Animaux autorisés
                
                 <figure class=ilesdufrioul>
                     
-                    <img src="file:///Users/sarah/Desktop/RESERVIA/ilesdufrioulsmall.jpg" height="114" width="309" alt=ilesdufrioul>
+                    <img src="file:///Users/sarah/Desktop/RESERVIA/ilesdufrioulsmall.jpg" height="114" width="300" alt=ilesdufrioul>
                     <figcaption>Iles du Frioul
                     
                     </figcaption>
                 </figure>
+            </div>
                
-                <figure class=parcnationaldescalanques>
+               <div> <figure class=parcnationaldescalanques>
                     
                     <img src="file:///Users/sarah/Desktop/RESERVIA/calanquesmall.jpg" height="387" width="301" alt=parcnationaldescalanques>
                     <figcaption>Parc national des Calanques
                     </figcaption>
                 </figure>
+            </div>
                
-                <figure class=notredamedelagarde>
+                <div class="act2"><figure class=notredamedelagarde>
                     
-                    <img src="file:///Users/sarah/Desktop/RESERVIA/notredamesmall.jpg" height="140" width="309" alt=notredamedelagarde>
+                    <img src="file:///Users/sarah/Desktop/RESERVIA/notredamesmall.jpg" height="140" width="300" alt=notredamedelagarde>
                     
                     <figcaption>Notre-Dame-de-la-Garde
                     </figcaption>
@@ -270,10 +258,11 @@ Animaux autorisés
                 
                 <figure class=parclongchamp>
                    
-                    <img src="file:///Users/sarah/Desktop/RESERVIA/parclongchampsmall.jpg" height="150" width="309" alt=parclongchamp>
+                    <img src="file:///Users/sarah/Desktop/RESERVIA/parclongchampsmall.jpg" height="150" width="300" alt=parclongchamp>
                     <figcaption>Parc Longchamp
                     </figcaption>
                 </figure>
+            </div>
             </div>
 </section>
 
@@ -281,22 +270,22 @@ Animaux autorisés
 
         <footer> 
 
-            <p class=container4> 
+            <p class="container4"> 
                 <!--A propos-->
-               <div> 
+                <div>
                 <h4> À propos 
                 </h4>
-                <br> Fonctionnement du site 
-                 <br> Conditions générales de vente 
+                 Fonctionnement du site <br> 
+                 <br> Conditions générales de vente <br>
                  <br> Données et confidentialité 
                  </div>
             
 
             <!--Nos herbergements-->
             <div>
-                <h4> Nos hebergements
+                <h4> Nos hébergements
                 </h4>
-               <br> Charte qualité 
+               Charte qualité <br>
                 <br> Soumettre votre hotel
             </div>
             
@@ -305,7 +294,7 @@ Animaux autorisés
                 <div>
                 <h4> Assistance
                 </h4>
-               <br> Centre d'aide 
+               Centre d'aide <br> 
                 <br> Nous contacter 
             </div>
             </p>

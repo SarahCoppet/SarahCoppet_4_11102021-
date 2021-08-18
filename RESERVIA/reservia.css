@@ -1,12 +1,6 @@
-@font-face
-{
-	font-family: "Raleway"; 
-	src: url("Raleway.ttf");
-	src: url("Raleway.ttf") format("ttf")
-	url("Raleway.eot") format("eot"),
-	url("Raleway.woff") format("woff"),
-	url("Raleway.otf") format("otf"),
-	url("Raleway.svg") format("svg");
+@font-face {
+  font-family: "Bitstream Vera Serif Bold";
+  src: url("/static/styles/libs/font-awesome/fonts/fontawesome-webfont.fdf491ce5ff5.woff");
 }
 
 
@@ -15,26 +9,52 @@ p
 	
 	font-size: small;
 
-
 }
 
 
 #tout
 
  {
+ 	
+ 	margin: auto;
  	font-family: "Raleway", serif, sans-serif;
  	
 }
 
 header 
  {
- 	margin: 50px;
  	display: flex;
- 	align-items: space-between;
- 	justify-contnt: flex-start;
- 	flex-direction: row;
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	
  	
 }
+div .reservia img 
+{
+	width: 20%;
+	height: auto;
+	object-fit: auto;
+	margin-right: 100px;
+	padding-top: 2rem;
+	left: 150px;
+
+
+}
+
+
+nav a:hover 
+{
+        border-top: 3px solid #0065fc;
+        
+        text-decoration: none;
+}
+
+ nav .nav-link2:hover
+ {
+ 	 border-top: 3px solid gray;
+ 	 text-decoration: none;
+        
+ }       
  
  li  
  {
@@ -87,6 +107,12 @@ header
  	padding: 5px;
 
  }
+ input
+ {
+ 	
+ 	font-weight: bold;
+ 	font-size: 22px;
+ }
  
  label
  {
@@ -94,6 +120,8 @@ header
  	color: white;
  	text-align: justify;
  	font-size: larger;
+ 	border-radius: 0px 15px 15px 0px;
+ 	padding: px;
 
  }
 
@@ -111,7 +139,7 @@ h2 h3 h4 h5
 
 
 
- body
+ body /*pas necessaire*/
  {
  	background-image: url(Resevia.svg);
  	background-attachment: scroll;
@@ -129,16 +157,21 @@ h2 h3 h4 h5
 {
 	margin: 7px;
 	display: inline-flex;
-	font-weight: bold  ;
-	
+	font-weight: bold ;
 
+	
+}
+.filtremot
+{
+	padding-top: 15px;
+	padding-right: 15px;
 }
 
 div .filtre1
 {
 	border: 1.5px solid #f2f2f2;
 	border-radius: 20px;
-	padding: 5px;
+	padding: 10px;
 	margin: 7px;
 
 }
@@ -146,7 +179,7 @@ div .filtre2
 {
 	border: 1.5px solid #f2f2f2;
 	border-radius: 20px;
-	padding: 5px;
+	padding: 10px;
 	margin: 7px;
 
 }
@@ -154,7 +187,7 @@ div .filtre3
 {
 	border: 1.5px solid #f2f2f2;
 	border-radius: 20px;
-	padding: 5px;
+	padding: 10px;
 	margin: 7px;
 
 }
@@ -162,7 +195,7 @@ div .filtre4
 {
 	border: 1.5px solid #f2f2f2;
 	border-radius: 20px;
-	padding: 5px;
+	padding: 10px;
 	margin: 7px;
 
 
@@ -172,6 +205,7 @@ div .filtre4
 .hebetpop
 {
 	display: flex;
+
 
 }
 
@@ -187,10 +221,11 @@ div .filtre4
 
 .container /*hebergement*/
 {
+	height: 628px;
+	width: 879px;
 	background-color: #f2f2f2;
 	border-radius: 15px;
-	padding-bottom: 10px;
-	padding-left: 5px ;
+	padding-bottom: 40px;
 	margin: 5px;
 
 }
@@ -198,81 +233,114 @@ div .filtre4
 
 {   display: flex;
 	flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-   
+       
 }
 
-#hebergement 
+#hebergements /*titre*/
 {
 	align-content: flex-start;
 	flex: 800px;
+	padding-left: 50px;
+}
+div .container1 img 
+{
+	border-radius: 15px 15px 0px 0px;
+	margin-top: 2px;
 }
 
 .hebergement1
 {
 	border: 1px solid white;
-	padding: 10px;
+	padding: 2px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #e7e7e7;
+
 }
 
 .heb1 
 {
-
-
+	padding: 5px;
+ 
 }
 
 .hebergement2
 {
 	border: 1px solid white;
-	padding: 10px;
+	padding: 2px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #e7e7e7;
 	
 }
 .heb2
 {
+	padding: 5px;
 
 }
 
 .hebergement3
 {
 	border: 1px solid white;
-	padding: 10px;
+	padding: 2px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #e7e7e7;
 	
 
 }
 .heb3 
 {
+	padding: 5px;
 
 }
 .hebergement4
 { 
 	border: 1px solid white;
-	padding: 10px;
-	
+	padding: 2px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #e7e7e7;
  }
 .heb4
 {
+	padding: 5px;
 
 }
 .hebergement5
 {
 	border: 1px solid white;
-	padding: 10px;
+	padding: 2px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #e7e7e7;
 	
 
 }
 .heb5 
 {
+	padding: 5px;
 
 }
 .hebergement6
 {
 	border: 1px solid white;
-	padding: 10px;
+	padding: 2px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #e7e7e7;
 	
 
 }
 .heb6 
 {
+	padding: 5px;
 
 }
 
@@ -280,7 +348,10 @@ div .filtre4
 {
 
 	align-self: flex-end;
-	
+	font-weight: bold;
+	font-size: medium;
+	padding-left: 50px;
+	padding-bottom: 50px;
 }
 
 
@@ -291,51 +362,80 @@ div .filtre4
 	float: right;
 	border-radius: 15px;
 	margin: 5px;
-	padding: 30px;
 	padding-bottom: 20px;
 	order: 2;
 	vertical-align: top;
+}
+aside img
+{
+	border-radius: 15px 0px 0px 15px ;
+}
+
+.popp /*titre populaire*/
+{
+	padding-left: 20px;
+
+}
+.trend 
+{
+	display: inline-flex;
+	justify-content: flex-end;
+	margin-left: 50px;
+}
+aside .container2 p .AZERT i 
+{
+	float: right;
+	padding-right: 10px;
 }
 
 .populaire1
 {
 	border: 1px solid white;
-	padding: 7px;
-	margin: 10px;
+	padding: 5px;
+	margin: 25px;
     border-radius: 20px;
+    border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #e7e7e7;
 
 }
 .pop1
 {
 	float: right;
+	padding: 5px;
 }
 
 
 .populaire2
 {
 	border: 1px solid white;
-	padding: 7px;
-	margin: 10px;
+	padding: 5px;
+	margin: 25px;
     border-radius: 20px;
+    border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #e7e7e7;
 
 }
 .pop2 
 {
 	float: right;
+	padding: 5px;
 }
 
 
 .populaire3
 {
 	border: 1px solid white;
-	padding: 7px;
-	margin: 10px;
+	padding: 5px;
+	margin: 25px;
     border-radius: 20px;
+    border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #e7e7e7;
 
 }
 .pop3
 {
 	float: right;
+	padding: 5px;
 }
 
 
@@ -344,56 +444,121 @@ div .filtre4
 .container3
 
 {
+	width: auto;
 	font-weight: bold;
-	background-color: white;
-	border-radius: 15px;
 	order: 3;
 	display: inline-flex;
-	flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
+	flex-flow: wrap row;
+
+
+    
+    
 }
 
-#activités
+#activités /*titre*/
 {
-	align-content: center;
-	flex: 800px;
-}
-figcaption .container3 
-{
-
-
+	
+	flex: 1600px;
+	padding-bottom: 15px;
+	
 }
 
-.vieuxport
+div .container3 img 
 {
-	border: 1px solid black;
-	box-shadow: 0px 2px 5px #F2F2F2
+	border-radius: 15px 15px 0px 0px;
+
+
+}
+div .container3 figcaption
+{
+	padding: 10px;
+}
+div .container3 div
+{
+	margin: -30px;
+	padding-bottom: 70px;
+
+}
+
+
+.vieuxport 
+{
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #F2F2F2;
+	padding-bottom: 15px;
 	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	
 }
 
 
 .fortdepomegues
 {
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #F2F2F2;
+	padding-bottom: 5px;
+	margin-bottom: 45px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
 
+	
 }
 .ilesdufrioul
 {
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #F2F2F2;
+	padding-bottom: 5px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+
+	
+	
 
 }
 .parcnationaldescalanques
 {
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #F2F2F2;
+	padding-bottom: 15px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	
 
 }
+
+
 .notredamedelagarde
 {
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #F2F2F2;
+	padding-bottom: 15px;
+	margin-bottom: 45px ;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	
 
 }
 .parclongchamp
 {
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 5px #F2F2F2;
+	padding-bottom: 15px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+
+	
 
 }
-
+div .container3 div .act1 .act2
+{
+	float: right;
+}
 
 
 /*footer*/
@@ -402,13 +567,19 @@ footer
 	background-color: #f2f2f2;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 	margin-top: 10px;
 	padding-top: 25px;
 	padding-bottom: 50px;
-    justify-content: space-around;
-    align-items: center;
+	margin-left: -50px;
+	margin-right: -50px;
+    
+
+
 	
 }
+
+
 
 figure
 
@@ -416,11 +587,266 @@ figure
 	background-color: white;
 	border: none;
 	border-radius: 15px;
-	display: flex;
-	justify-content: center;
+	
+	
 
 
 }
 
+@media screen and (max-width: 1024px)
+
+{
+	#tout
+	{
+		width: auto;
+	}
+	.reservia
+	{
+		width: 150%;
+		height: auto;
+		margin: 15px;
+	}
+	
+	li
+	{
+		display: flex;
+		text-align: left;
+		flex-direction: column;
+		width: auto;
+	}
+	.nav-link1
+	{
+		width: 45%;
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+ 	    left: 50px;
+ 	    top: 100px;
+ 	    font-size: larger;
+ 	    margin: 20px;
+ 	    border-bottom: 3px solid #0065fc;
+ 	    padding-bottom: 10px;
+
+	}
+	.nav-link2
+	{
+		width: 35%;
+		display: flex;
+		justify-content: flex-end;
+	    position: absolute;
+ 	    right: 80px;
+ 	    top: 100px;
+ 	    font-size: larger;
+ 	    margin: 20px;
+ 	    border-bottom: 3px solid #F2F2F2;
+ 	    padding-bottom: 10px;
+
+	}
+	.nav-link3
+	{
+		font-weight: bold;
+		align-self: flex-end;
+	}
+
+	nav a:hover 
+    { 
+	    border-top: none;
+        border-bottom: 3px solid #0065fc;
+        text-decoration: none;
+
+    }
+    nav .nav-link2:hover
+    {
+    	border-top: none;
+    	border-bottom: 3px solid #f2f2f2;
+    	text-decoration: none;
+
+    }
+	.trouver
+	{
+		width: auto;
+		font-size: xx-large;
+	    display: flex;
+		flex-direction: row;
+		margin: 15px;
+		padding-top: 55px;
+		
+	}
+	.epc
+	{
+		font-size: larger;
+		margin: 15px;
+	}
+	.filtremot
+	{
+		width: 400px;
+		margin: 15px;
+		display: flex;
+
+		
+
+        
+	}
+	.filtres
+	{
+		width: auto;
+		display: flex;
+		flex-flow: wrap row;
+		font-size: larger;
+		padding: 40px;
+		margin-bottom: -30px;
+		margin-left: -40px;
+		margin-right: 15px;
+	}
+	div .filtre1
+	{
+		border-radius: 150px;
+		padding: 10px;
+	}
+	div .filtre2
+	{
+		border-radius: 150px;
+		padding: 10px;
+	}
+	div .filtre3
+	{
+		border-radius: 150px;
+		padding: 10px;
+		margin-right: 100px;
+
+	}
+	div .filtre4
+	{
+		border-radius: 150px;
+		padding: 10px;
+	}
+	.info 
+	{
+		margin-left: 20px;
+	}
+	div .info span .infotxt
+	{
+		font-size: x-large;
+		display: inline flex;
+		justify-content: flex-start;
+		
+	}
+
+	section
+	{
+		display: flex;
+		flex-direction: column;
+	}
+    .container2
+	{
+		width: 400px;
+		margin-bottom: 10px;
+		margin-left: 30px;
+		font-size: large;
+		
+	}
+	.hebetpop :nth-child(1)
+	{
+		order: 2;
+	}
+	.hebetpop :nth-child(2)
+	{
+		order: 1;
+	}
+	.container2 figcaption
+	{
+		padding: 3px;
+		font-size: small;
+		align-self: flex-start;
+	}
+	.container2 h5
+	{
+		font-size: medium;
+	}
+	div .container2 figure
+	{
+		border: 1px solid transparent;
+	    box-shadow: 0px 2px 5px #e7e7e7;
+	}
+	.trend
+	{
+		display: inline-flex;
+		justify-content: flex-end;
+		margin-left: 65px;
+	}
 
 
+	.container
+	{
+		width: 400px;
+		height: auto;
+		margin-bottom: 10px;
+		background-color: white;
+		
+	}
+	.container1
+	{
+		display: flex;
+
+	}
+	
+
+	div .container1 img
+	{
+		width: 330px;
+		height: 140px;
+	}
+	div .container1 figure
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		border: 1px solid transparent;
+	    box-shadow: 0px 2px 5px #F2F2F2;
+	}
+	div .container1 figcaption
+	{
+		font-size: larger;
+		margin-top: -20px;
+	}
+	.plus
+	{
+		font-size: large;
+		margin-left: -20px;
+	}
+
+	#hebergements
+	{
+		margin-left: -30px ;
+	}
+	.container3
+	{
+		width: auto;
+		margin-left: 30px;
+		border: none;
+		padding-bottom: 0px;
+		margin-bottom: 35px;
+	}
+	
+	div .container3 img 
+	{
+		width: 400px;
+		height: 140px;
+	}
+
+	
+	footer
+	{
+		flex-direction: column;
+		width: auto;
+		padding: 25px;
+		margin: -40px;
+		font-size: larger;
+	}
+	
+	p .container4 h4
+	{
+		padding: 45px;
+		
+	}
+
+}
