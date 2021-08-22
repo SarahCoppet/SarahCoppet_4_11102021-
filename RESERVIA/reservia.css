@@ -33,7 +33,6 @@ div .reservia img
 {
 	width: 20%;
 	height: auto;
-	object-fit: auto;
 	margin-right: 100px;
 	padding-top: 2rem;
 	left: 150px;
@@ -58,9 +57,9 @@ nav a:hover
  
  li  
  {
- 	 	display: inline-flex;
- 	 justify-content: space-between;
- 	 justify-content: flex-end;
+ 	display: inline-flex;
+ 	justify-content: space-between;
+ 	justify-content: flex-end;
  	list-style-type: none;
  	margin: 10px;
  	padding: 10px;
@@ -99,33 +98,51 @@ nav a:hover
  form 
  {
  	display: flex;
- 	border: solid;
- 	border-color: #f2f2f2;
  	height: 30px;
  	width: 300px;
- 	border-radius: 15px;
- 	padding: 5px;
+  	padding: 5px;
 
  }
+
  input
  {
- 	
  	font-weight: bold;
- 	font-size: 22px;
+ 	font-size: 15px;
+  	border: 1px solid #f2f2f2;
+ 	padding: 15px;
+ 	margin: 0px;
  }
  
- label
+ .rech
  {
  	background-color:  #0065FC;
  	color: white;
  	text-align: justify;
- 	font-size: larger;
- 	border-radius: 0px 15px 15px 0px;
- 	padding: px;
-
+ 	font-size: 20px;
+  	padding: 15px;
+ 	margin: 0px;
+ 	border-radius: 0px 10px 10px 0px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
  }
+.search
+{
+	display: none;
+}
+.local
+{
+	border: solid #f2f2f2;
+	padding: 15px;
+	border-radius: 10px 0px 0px 10px;
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 
+
+}
 
 
 h2 h3 h4 h5
@@ -175,6 +192,12 @@ div .filtre1
 	margin: 7px;
 
 }
+.filtre1:hover
+{
+	text-decoration: none;
+	background-color: #f2f2f2;
+}
+
 div .filtre2
 {
 	border: 1.5px solid #f2f2f2;
@@ -183,6 +206,11 @@ div .filtre2
 	margin: 7px;
 
 }
+.filtre2:hover
+{
+	text-decoration: none;
+	background-color: #f2f2f2;
+}
 div .filtre3
 {
 	border: 1.5px solid #f2f2f2;
@@ -190,6 +218,11 @@ div .filtre3
 	padding: 10px;
 	margin: 7px;
 
+}
+.filtre3:hover
+{
+	text-decoration: none;
+	background-color: #f2f2f2;
 }
 div .filtre4
 {
@@ -200,7 +233,11 @@ div .filtre4
 
 
 }
-
+.filtre4:hover
+{
+	text-decoration: none;
+	background-color: #f2f2f2;
+}
 
 .hebetpop
 {
@@ -247,7 +284,11 @@ div .container1 img
 	border-radius: 15px 15px 0px 0px;
 	margin-top: 2px;
 }
-
+div .container1 a 
+{
+	text-decoration: none;
+	color: black;
+}
 .hebergement1
 {
 	border: 1px solid white;
@@ -382,12 +423,16 @@ aside img
 	justify-content: flex-end;
 	margin-left: 50px;
 }
-aside .container2 p .AZERT i 
+aside .container2 div .AZERT i 
 {
 	float: right;
 	padding-right: 10px;
 }
-
+div .container2 a
+{
+	text-decoration: none;
+	color: black;
+}
 .populaire1
 {
 	border: 1px solid white;
@@ -469,14 +514,20 @@ div .container3 img
 
 
 }
-div .container3 figcaption
+.f 
 {
-	padding: 10px;
+	padding: 40px;
+	
+}
+div .container3 a 
+{
+	text-decoration: none;
+	color: black;
 }
 div .container3 div
 {
 	margin: -30px;
-	padding-bottom: 70px;
+	padding-bottom: 50px;
 
 }
 
@@ -573,13 +624,8 @@ footer
 	padding-bottom: 50px;
 	margin-left: -50px;
 	margin-right: -50px;
-    
-
-
 	
 }
-
-
 
 figure
 
@@ -672,20 +718,31 @@ figure
 		padding-top: 55px;
 		
 	}
-	.epc
+	.epc /*en plein centre ville...*/
 	{
 		font-size: larger;
 		margin: 15px;
+	}
+	.label
+	{
+		display: none;
+	}
+	.search
+	{
+		font-size: 15px;
+		display: block;
+		justify-content: center;
+		align-items: center;
+		border: solid ;
+		padding: 5px;
+	
 	}
 	.filtremot
 	{
 		width: 400px;
 		margin: 15px;
 		display: flex;
-
-		
-
-        
+  
 	}
 	.filtres
 	{
@@ -712,7 +769,7 @@ figure
 	{
 		border-radius: 150px;
 		padding: 10px;
-		margin-right: 100px;
+		margin-right: 150px;
 
 	}
 	div .filtre4
@@ -753,7 +810,7 @@ figure
 	{
 		order: 1;
 	}
-	.container2 figcaption
+	.container2 div
 	{
 		padding: 3px;
 		font-size: small;
@@ -803,7 +860,7 @@ figure
 		border: 1px solid transparent;
 	    box-shadow: 0px 2px 5px #F2F2F2;
 	}
-	div .container1 figcaption
+	div .container1 div
 	{
 		font-size: larger;
 		margin-top: -20px;
@@ -843,7 +900,7 @@ figure
 		font-size: larger;
 	}
 	
-	p .container4 h4
+	div .container4 
 	{
 		padding: 45px;
 		
