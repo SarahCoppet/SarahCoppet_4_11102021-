@@ -89,12 +89,6 @@ a:hover {
     left: 0;
     right: 0;
 }
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -360,6 +354,21 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+input{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-bottom: solid 3px black;
+    margin-bottom: 10px;
+}
+.last{
+    text-align: center;
+    margin-top: 5px;
+
+}
+label{
+    color: ;
 }
 
 @media (min-width: 768px) {
@@ -743,6 +752,10 @@ h4 {
     color: #1C1C1C!important;
     font-size: 15px;
 }
+.vv{
+    color: #F3976C!important;
+    font-size: 20px;
+}
 }
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -787,6 +800,9 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #480E0E!important;
+}
+.ak{
+    
 }
 
 .btn-atomic-tangerine:hover {
@@ -1043,10 +1059,16 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .bb{
+        width: 400px;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .bb{
+        width: 150%;
     }
 }
