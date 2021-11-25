@@ -353,6 +353,7 @@ input{
 .last{
     text-align: center;
     margin-top: 5px;
+    color: #5F2907;
 
 }
 @media (min-width: 768px) {
@@ -752,7 +753,7 @@ h4 {
     font-size: 15px;
 }
 .vv{
-    color: #F3976C!important;
+    color: #5F2907!important;
     font-size: 20px;
 }
 .bloc-lg{
@@ -795,6 +796,10 @@ h4 {
 
 .tc-white {
     color: #F9DCD7!important;
+    opacity: 1;
+}
+.tc-whitee {
+    color: #5F2907!important;
     opacity: 1;
 }
 
