@@ -755,6 +755,9 @@ h4 {
     color: #F3976C!important;
     font-size: 20px;
 }
+.bloc-lg{
+    padding: 5px;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -991,8 +994,7 @@ h4 {
         padding-right: 0;
     }
     .bloc-xxl,
-    .bloc-xl,
-    .bloc-lg {
+    .bloc-xl {
         padding: 40px 0;
     }
     .bloc-sm,
