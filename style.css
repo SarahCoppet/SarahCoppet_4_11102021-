@@ -1070,5 +1070,6 @@ h4 {
     }
     .lj{
         width: 35%;
+        object-fit: cover;
     }
 }
